@@ -1,1 +1,43 @@
-<p>pagina-iniprueba works!</p>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mi página de música</title>
+        <script src="dist/pagina-iniprueba.component.js"></script>
+      </head>
+    <body>
+        <div class="sidebar">
+            <h1>Mi reproductor de música</h1>
+            <ul>
+                <li><a href="/pagina-iniprueba">Canción 1</a></li>
+                <li><a href="/pagina-iniprueba">Canción 2</a></li>
+                <li><a href="/pagina-iniprueba">Canción 3</a></li>
+                <li><a href="/pagina-iniprueba">Canción 4</a></li>
+                <li><a href="/pagina-iniprueba">Canción 5</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="player">
+                <div class="song-info">
+                    <img src="imagen-cancion.jpg" alt="Imagen de la canción">
+                    <div class="song-details">
+                        <h2>Título de la canción</h2>
+                        <p>Artista de la canción</p>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                    <div class="time-info">
+                        <span class="current-time">0:00</span>
+                        <span class="duration">0:00</span>
+                    </div>
+                </div>
+                <div class="controls">
+                    <button class="play-pause">Play/Pause</button>
+                    <button class="skip-backward">Anterior</button>
+                    <button class="skip-forward">Siguiente</button>
+                    <button class="repeat">Repetir</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
