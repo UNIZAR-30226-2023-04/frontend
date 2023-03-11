@@ -7,6 +7,7 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { AudioPlayerComponent } from './audio-player/audio-player.component';
+import { PaginaInipruebaComponent } from './pagina-iniprueba/pagina-iniprueba.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AudioPlayerComponent } from './audio-player/audio-player.component';
     RegisterComponent,
     LoginComponent,
     InicioComponent,
-    AudioPlayerComponent
+    AudioPlayerComponent,
+    PaginaInipruebaComponent
   ],
   imports: [
     BrowserModule,
